@@ -1,0 +1,723 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 90px 0;
+  text-align: right;
+  background-image: url("../Images/999.jpg");
+  background-size: cover;
+  color: #FFFFFF;
+}
+
+header h1 {
+  margin: 45px 120px 0 0;
+}
+
+.container {
+  padding: 10px 20px 0 20px;
+  max-width: 900px;
+  display: inline-block;
+}
+
+.container1 {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 900px;
+  display: block;
+
+}
+
+header a {
+  font-size: 35px;
+  font-family: cursive;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  margin: 0 0 20px 0;
+}
+
+header a:hover {
+  color: violet;
+}
+
+
+
+/*nav*/
+
+nav {
+  padding: 20px 0;
+  text-align: center;
+  background-color: #FFEFD5;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+}
+
+
+nav li {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.home {
+  border-radius: 20%;
+  background-color: violet;
+  margin-right: 15px;
+}
+
+nav li a {
+  padding: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: green;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: cursive;
+}
+
+nav li a:hover {
+  color: #800080;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+/*nav end*/
+
+/*section images start*/
+
+section {
+  padding: 50px 0;
+  background-color: #ffccff;
+  text-align: center;
+}
+
+
+.images h3,
+.images1 h3 {
+  margin-top: -25px;
+  margin-left: -150px;
+  padding: 10px;
+  text-align: center;
+  color: #800080;
+  font-weight: bold;
+  font-size: 28px;
+  font-family: cursive;
+}
+
+.images ul {
+  margin-left: 5px;
+  margin-top: 15px;
+  list-style: none;
+}
+
+.images img {
+  width: 25%;
+  border-radius: 20%;
+
+  float: left;
+  margin: 5px;
+  padding: 5px;
+}
+
+[id="a"] {
+  font-family: courier;
+  color: #800080;
+  font-weight: 700;
+  font-size: 20px;
+  display: none;
+  background-color: greenyellow;
+}
+
+[id="b"] {
+  font-family: courier;
+  color: #800080;
+  font-weight: 700;
+  font-size: 20px;
+  display: none;
+  background-color: #ffcc00;
+}
+
+[id="c"] {
+  font-family: courier;
+  color: #800080;
+  font-weight: 700;
+  font-size: 20px;
+  display: none;
+  background-color: #ff99e6;
+}
+
+[id="d"] {
+  font-family: courier;
+  color: #800080;
+  font-weight: 700;
+  font-size: 20px;
+  display: none;
+  background-color: #ffff66;
+}
+
+[id="e"] {
+  font-family: courier;
+  color: #800080;
+  font-weight: 700;
+  font-size: 20px;
+  display: none;
+  background-color: #ffffcc;
+}
+
+[id="f"] {
+  font-family: courier;
+  color: #800080;
+  font-weight: 700;
+  font-size: 20px;
+  display: none;
+  background-color: #e6b3ff;
+}
+
+.images1 ul {
+  list-style: none;
+  margin-left: 100px;
+}
+
+.images1 img {
+  width: 85%;
+  border-radius: 20%;
+  float: left;
+  margin: 5px;
+  padding: 5px;
+}
+
+.images1 p {
+  font-family: cursive;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 20px;
+  margin: 5px;
+  border-radius: 20%;
+  width: 80%;
+  color: #800080;
+}
+
+div8 p {
+  font-size: 20px;
+  font-family: cursive;
+}
+
+div8 img {
+  width: 85%;
+  border-radius: 10px;
+  border: 15px solid #d5ff80;
+}
+
+.images {
+  box-sizing: border-box;
+}
+
+/* section images end*/
+
+
+/*section quotes, forest start*/
+.quotes h1 {
+  font-size: 31px;
+  margin-top: -15px;
+}
+
+.quotes cite {
+  font-size: 21px;
+}
+
+.quotes {
+  background-color: #FFEFD5;
+  color: green;
+  font-family: 'Handlee', cursive;
+  font-weight: bold;
+  padding: 45px;
+}
+
+.quotes q {
+  font-family: courier;
+  color: #800080;
+  font-weight: 700;
+  font-size: 33px;
+}
+
+.forest {
+  padding: 20px 0;
+  background-color: #d5ff80;
+  box-sizing: border-box;
+}
+
+.forest img {
+  border-radius: 20%;
+  margin: 15px 0;
+  margin: 0 auto;
+}
+
+/*section quotes, forest end*/
+
+
+/*section contact start*/
+.contact_index {
+  background-color: #FFEFD5;
+}
+
+input {
+  margin: 15px 0;
+  padding: 4px 4px 4px 11px;
+  display: block;
+  width: 357px;
+  height: 33px;
+  border-radius: 15%;
+  border: 11px solid #99ff99;
+}
+
+.message {
+  height: 100px;
+}
+
+/*section contact end*/
+
+
+/* section social start */
+h4 {
+  font-family: courier;
+  font-size: 25px;
+  font-weight: 700;
+  color: #800080;
+  margin-bottom: 5px;
+  padding: 5px 0;
+}
+
+.social_box a {
+  margin: 0 auto;
+}
+
+.social_box img {
+  width: 5%;
+  cursor: pointer;
+}
+
+.social_box img:hover {
+  border: 3px solid violet;
+  border-radius: 50%;
+}
+
+.social_box {
+  width: 100%;
+}
+
+.green_social {
+  background-color: #d5ff80;
+}
+
+.social_input {
+  margin: 0 auto;
+  width: 30%;
+}
+
+button {
+  background-color: #99ff99;
+  color: #660033;
+  font-size: 17px;
+  font-weight: 700;
+  padding: 10px 55px;
+  margin: -5px;
+  cursor: pointer;
+  border-radius: 20%;
+  border: none;
+}
+
+button:hover {
+  background-color: #8cf64a;
+}
+
+
+/*section social end* /
+
+
+/*footer start*/
+footer {
+  padding: 10px 0;
+  text-align: center;
+  background-color: #d5ff80;
+}
+
+
+footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+footer li {
+  display: inline-block;
+}
+
+footer li a {
+  padding: 20px;
+  text-decoration: none;
+  color: #800080;
+  font-weight: bold;
+  font-size: 23px;
+  margin-bottom: 10px;
+}
+
+footer li a:hover {
+  cursor: pointer;
+  color: green;
+  font-size: 24px;
+}
+
+footer p {
+  font-weight: bolder;
+  font-family: cursive;
+  font-size: 18px;
+}
+
+.rights {
+  background-color: #ffffcc;
+}
+
+/*footer end*/
+
+
+#search {
+  padding: 20px;
+  font-size: 15px;
+  width: 250px;
+  background-image: url("../Images/search-icon-violet.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+
+
+
+/*birds start*/
+.birds {
+  border-radius: 20%;
+  background-color: violet;
+  margin-right: 15px;
+}
+
+/*sections birds images start*/
+
+.images2 ul {
+  margin-top: 15px;
+  list-style: none;
+  margin-left: 125px;
+  cursor: pointer;
+}
+
+.images2 img {
+  width: 25%;
+  border-radius: 20%;
+
+  float: left;
+  margin: 5px;
+
+}
+
+.images2 img:hover {
+  transform: scale(2.5);
+}
+
+/*section birds images end*/
+
+
+.plan {
+  display: none;
+  text-align: center;
+}
+
+
+table {
+  font-family: cursive;
+  border-collapse: collapse;
+  width: 40%;
+  font-size: 20px;
+  padding: 15px;
+  position: relative;
+  left: 240px;
+}
+
+
+
+.ticket p,
+ticket1 p {
+  font-family: cursive;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+
+.ticket h3 {
+  font-size: 20px;
+}
+
+
+td {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 15px;
+}
+
+div .about_p {
+  font-size: 25px;
+  font-family: cursive;
+  font-weight: 700;
+  padding: 35px;
+  margin: 10px 0;
+  width: 700px !important;
+  height: 230px;
+  border-radius: 50px;
+  border: 15px solid #FFEFD5;
+  background-color: #d5ff80;
+  color: #660033;
+  text-align: center;
+}
+
+
+
+.address {
+  background-color: #d5ff80;
+  width: 85%;
+  padding: 20px;
+  margin: 20px;
+  border-top-right-radius: 30%;
+  border-bottom-left-radius: 30%;
+  font-size: 20px;
+  font-family: cursive;
+  font-weight: bolder;
+}
+
+
+button3 {
+  color: #660033;
+  font-size: 20px;
+  margin: 0 0 160px 5px;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 20%;
+  border: none;
+}
+
+button4 {
+  color: #660033;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 20%;
+  border: none;
+}
+
+.garden_design,
+.birds,
+.trees,
+.home,
+.about,
+.flowers,
+.contact {
+  padding: 3px 7px;
+}
+
+
+
+.about,
+.flowers,
+.garden_design,
+.contact,
+.trees,
+.birds {
+  border-radius: 20%;
+  background-color: violet;
+  margin-right: 15px;
+}
+
+
+
+
+
+
+
+.palm {
+  display: none;
+  background-color: #ffffcc;
+  padding: 15px 0;
+}
+
+.willow {
+  display: none;
+  background-color: #ffcc00;
+}
+
+.fir-tree {
+  display: none;
+  background-color: #ccff99;
+}
+
+.baobab {
+  display: none;
+  background-color: #ffff66;
+}
+
+.oak-tree {
+  display: none;
+  background-color: #ff99e6;
+}
+
+.wisteria {
+  display: none;
+  background-color: #e6b3ff;
+}
+
+.nav {
+  background-color: #d5ff80;
+}
+
+
+.container .water_lil,
+.container .peony_,
+.container .daisy_,
+.container .calla_,
+.container .carnation_,
+.container .orchid_ {
+  float: left;
+  width: 45%;
+}
+
+.container .waterlily,
+.container .peony,
+.container .daisy,
+.container .calla,
+.container .carnation,
+.container .orchid {
+  width: 45%;
+  float: right;
+  margin: 15px 10px 10px 10px;
+}
+
+.container .dahila,
+.container .alstroemeria,
+.container .lotus,
+.container .birdofparadise,
+.container .tulip {
+  float: left;
+  width: 45%;
+  margin: 15px 10px 10px 10px;
+}
+
+.container .dahila_,
+.container .alstroemeria_,
+.container .birdofparadise_,
+.container .tulip_ {
+  float: right;
+  width: 45%;
+}
+
+div8 .lotus_ {
+  float: right;
+  width: 30%;
+  position: relative;
+  left: -220px;
+  top: -30px;
+}
+
+div8 .lotus {
+  position: relative;
+  left: 180px;
+}
+
+div8 .bg_lotus {
+  background-color: #FFEFD5;
+}
+
+
+.contact5 {
+  margin: -10px 0 20px 0;
+}
+
+.contact6 {
+  background-color: violet;
+  padding: 20px;
+  border-radius: 15%;
+}
+
+.address_ {
+  background-color: violet;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.contact_send {
+  margin: 5px
+}
+
+.slider {
+  text-align: center;
+  margin: -20px 5px 40px 5px;
+}
+
+.slider_img {
+  width: 55%;
+  height: 500px;
+  border-radius: 10%;
+  margin-top: 40px;
+  padding: 10px;
+  border: 30px solid #ccff99;
+}
+
+.next {
+  margin: -20px 0 0 0;
+}
+
+
+button3,
+.next {
+  font-size: 20px;
+  background-color: #ccff99;
+  padding: 10px 30px;
+}
+
+
+.more {
+  font-size: 25px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+
+.violet {
+  background-color: violet;
+}
+
+
+
+
+
+
+
+#top_button {
+  position: fixed;
+  bottom: 40px;
+  right: 50px;
+  z-index: 50;
+  border: none;
+  text-decoration: none;
+  outline: none;
+  background-color: violet;
+  color: rgb(37, 6, 37);
+  cursor: pointer;
+  padding: 16px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+#top_button:hover {
+  background-color: greenyellow;
+}

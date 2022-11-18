@@ -1,0 +1,399 @@
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  header h1 {
+    margin-left: 50px;
+  }
+
+  table {
+    font-family: cursive;
+    border-collapse: collapse;
+    width: 50%;
+    font-size: 20px;
+    position: relative;
+    margin-left: -190px;
+  }
+
+  td {
+    padding: 15px 25px;
+  }
+
+  .ticket {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 auto;
+    position: relative;
+    top: 30px;
+  }
+
+  #search {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .images h3 {
+    margin-left: -10px;
+    font-size: 23px;
+  }
+
+  .quotes h1 {
+    font-size: 24px;
+  }
+
+  .quotes cite {
+    font-size: 17px;
+  }
+
+  .quotes q {
+    font-size: 23px;
+  }
+
+  .forest img {
+    width: 90%;
+    padding: 10px;
+  }
+
+  #contact input {
+    width: 150%;
+    position: relative;
+    margin-left: -50px;
+  }
+
+
+
+  .social_input {
+    width: 60%;
+  }
+
+  .social_box {
+    margin-left: -20px;
+  }
+
+  div .about_p {
+    width: 70% !important;
+    margin: 0 0 10px -10px;
+    font-size: 18px;
+    height: auto;
+  }
+
+  .images1 h3 {
+    font-size: 18px;
+    margin-left: 20px;
+  }
+
+  .images3 ul {
+    width: 100%;
+    position: relative;
+    right: 105px;
+
+  }
+
+  .images1 ul {
+    width: 90%;
+    display: block;
+    position: relative;
+    right: 65px;
+  }
+
+
+  .container .water_lil,
+  .container .waterlily,
+  .container .dahila,
+  .container .dahila_,
+  .container .peony,
+  .container .peony_,
+  .container .alstroemeria,
+  .container .alstroemeria_,
+  .container .daisy,
+  .container .daisy_,
+  .container .calla,
+  .container .calla_,
+  .container .birdofparadise,
+  .container .birdofparadise_,
+  .container .carnation,
+  .container .carnation_,
+  .container .tulip,
+  .container .tulip_,
+  .container .orchid,
+  .container .orchid_ {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  .container .lotus {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    left: 30px;
+  }
+
+  div8 .lotus_ {
+    width: 85%;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    left: -20px;
+    top: 10px;
+  }
+
+  .slider_img {
+    border: 12px solid #a7e022;
+    width: 50%;
+    height: 50%;
+  }
+
+  [onclick="show_hide()"] {
+    font-size: 14px;
+  }
+
+  button3,
+  .next {
+    font-size: 16px;
+    background-color: #a7e022;
+    padding: 2px 5px;
+  }
+
+  button3 {
+    margin: 0 0 0 6px;
+  }
+
+  .next {
+    margin-right: 0 -3px 0 0;
+  }
+
+  footer li {
+    display: block;
+    margin: 5px 0;
+  }
+
+  .contact6 {
+    background-color: #FFEFD5;
+  }
+
+
+
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media screen and (min-width: 481px) and (max-width: 767px) {
+
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  .ticket {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 auto;
+    position: relative;
+    top: 30px;
+  }
+
+  #search {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  table {
+    margin-left: -130px;
+  }
+
+  .images h3 {
+    margin-left: -60px;
+    font-size: 22px;
+  }
+
+  .quotes h1 {
+    font-size: 25px
+  }
+
+  .quotes q {
+    font-size: 22px;
+  }
+
+  .quotes cite {
+    font-size: 18px;
+  }
+
+  .forest img {
+    width: 90%;
+    padding: 0 10px;
+  }
+
+
+  .social_input {
+    width: 45%;
+    position: relative;
+    left: 6px;
+  }
+
+  .social_box {
+    margin: 0 auto;
+  }
+
+  .social_box img {
+    width: 8%;
+  }
+
+  div .about_p {
+    height: auto;
+    width: 70% !important;
+    font-size: 18px;
+    margin-left: 15px;
+  }
+
+
+  .container .water_lil,
+  .container .waterlily,
+  .container .dahila,
+  .container .dahila_,
+  .container .peony,
+  .container .peony_,
+  .container .alstroemeria,
+  .container .alstroemeria_,
+  .container .daisy,
+  .container .daisy_,
+  .container .calla,
+  .container .calla_,
+  .container .birdofparadise,
+  .container .birdofparadise_,
+  .container .carnation,
+  .container .carnation_,
+  .container .tulip,
+  .container .tulip_,
+  .container .orchid,
+  .container .orchid_ {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  .container .lotus {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    left: 30px;
+  }
+
+  div8 .lotus_ {
+    width: 85%;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    left: -40px;
+    top: 10px;
+  }
+
+  button3,
+  .next {
+    font-size: 16px;
+    background-color: #a7e022;
+    padding: 7px 12px;
+  }
+
+
+  .slider_img {
+    border: 12px solid #a7e022;
+    width: 50%;
+    height: 50%;
+  }
+
+
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  .ticket {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 auto;
+    position: relative;
+    top: 30px;
+  }
+
+  #search {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .social_input {
+    width: 30%;
+  }
+
+
+  div8 .lotus_ {
+    float: right;
+    width: 45%;
+    position: relative;
+    left: -18px;
+    top: -330px;
+  }
+
+  div8 .lotus {
+    width: 45%;
+    position: relative;
+    margin-left: -150px !important;
+  }
+
+  .calla1 {
+    position: relative;
+    top: -180px;
+  }
+
+  [name="email3"] {
+    width: 300px;
+  }
+
+  div .about_p {
+    font-size: 18px;
+    width: 70% !important;
+    height: auto;
+    margin-left: 55px;
+  }
+
+  .slider_img {
+    border: 12px solid #a7e022;
+    width: 60%;
+    height: 70%;
+  }
+
+}
+
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  div8 .lotus_ {
+    float: right;
+    width: 30%;
+    position: relative;
+    left: -5px;
+    top: -280px;
+  }
+
+
+
+  .calla1 {
+    position: relative;
+    top: -180px;
+  }
+}
